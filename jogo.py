@@ -31,7 +31,7 @@ branco = (255, 255, 255)
 
 # Aqui coloquei separado para ajustar as configurações do carro
 carro_largura = 80
-carro = pygame.image.load('carro.jpg')  
+carro = pygame.image.load('carro.png')  
 carro = pygame.transform.scale(carro, (carro_largura, 100))
 
 # Posição inicial do carro
